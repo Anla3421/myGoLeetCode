@@ -5,8 +5,8 @@ import (
 )
 
 func main() {
-	nums := []int{1, 3, 1, 5, 5}
-	k := 0
+	nums := []int{6, 3, 5, 7, 2, 3, 3, 8, 2, 4}
+	k := 2
 	output := findPairs(nums, k)
 	fmt.Print(output)
 }
@@ -58,6 +58,5 @@ func forZeroK(nums []int) int {
 			count += 1
 		}
 	}
-	fmt.Println(temp)
 	return count
 }

@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	num := 199
+	num := 159
 	result := addDigits(num)
 	fmt.Println("result:", result)
 }
