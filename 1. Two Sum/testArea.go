@@ -1,6 +1,47 @@
 package main
 
 // func twoSum(nums []int, target int) []int {
+// 	s := newSet()
+
+// 	for idx, num := range nums {
+// 		desired := target - num
+// 		if s.has(desired) {
+// 			idx2 := s.get(desired)
+// 			return []int{idx2, idx}
+// 		}
+// 		s.add(num, idx)
+// 	}
+// 	return []int{}
+// }
+
+// type set struct {
+// 	items map[int]int
+// }
+
+// func newSet() *set {
+// 	return &set{
+// 		items: make(map[int]int),
+// 	}
+// }
+
+// func (s *set) add(value, position int) {
+// 	s.items[value] = position
+// }
+
+// func (s *set) has(i int) bool {
+// 	_, exists := s.items[i]
+// 	return exists
+// }
+
+// func (s *set) get(i int) int {
+// 	idx, exists := s.items[i]
+// 	if !exists {
+// 		return -1
+// 	}
+// 	return idx
+// }
+
+// func twoSum(nums []int, target int) []int {
 // 	lens := len(nums)
 // 	for i := 0; i < lens; i++ {
 // 		for j := i + 1; j < lens; j++ {
