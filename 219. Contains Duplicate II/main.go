@@ -17,7 +17,6 @@ func containsNearbyDuplicate(nums []int, k int) bool {
 				return true
 			}
 		}
-		fmt.Println(temp)
 	}
 	return false
 }
